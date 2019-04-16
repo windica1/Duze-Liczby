@@ -48,7 +48,6 @@ int Liczba::length() const
 Liczba operator+( const Liczba &a, const Liczba &b)
 {
   Liczba wynik;
-  int temp;
   int reszta=0;
     int wieksza;
     if(a.length()>b.length())
