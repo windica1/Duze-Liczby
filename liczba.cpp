@@ -75,7 +75,6 @@ Liczba operator*(const Liczba &a, const Liczba &b)
 {
   Liczba wynik;
   int temp;
-  int przeniesienie=0;
   int wieksza;
   Liczba temp_wynik;
   if(a.length()>b.length())
